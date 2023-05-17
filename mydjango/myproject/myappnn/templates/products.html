@@ -1,0 +1,111 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Django Project made by 이정현(32193469)</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("{% static 'assets/img/citybg.jpg' %}");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">My Tech Portfolio made by django</span>
+                <span class="site-heading-lower">About me</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="home.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">My Pet</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Potfolio</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Skills</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section">
+            <div class="container">
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex ms-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">the greatest passion of my life</span>
+                                <span class="section-heading-lower">Educational service</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'assets/img/products-01.jpg' %}" alt="..." style="max-width: 40%;" />
+                    <div class="product-item-description d-flex me-auto">
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">제 목표는 누구나 쉽게 배울 수 있는 코딩 교육 플랫폼을 개발하는 IT 스타트업을 창업하는 것입니다. 올해 여름방학에 한국장학재단 주관 ‘대학생 하계 재능봉사 캠프’에 참여했습니다. 팀원들과 교육 사각지대 초등학교에서 전공 관련 진로 체험을 하는 교육봉사 활동이었으며, 저는 엔트리를 활용한 블록 코딩 교육을 했습니다.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="container">
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex me-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">The biggest challenge of my life</span>
+                                <span class="section-heading-lower">exchange student</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'assets/img/products-02.jpg' %}" alt="..." style="max-width: 40%;" />
+                    <div class="product-item-description d-flex ms-auto">
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">작년 1학기 여름방학에 City University of Hong Kong 파견 Summer Exchange Program으로 Remote Controlled Paramotor를 주제로 한 교환학생을 다녀왔습니다. 일정 중에 물류기술을 연구개발하는 LSCM 기업을 방문하면서 지능형 물류 플랫폼에 대해 알게 되었습니다. 아마존 로보틱스의 선반 운송 로봇 Kiva와 비슷한 로봇이 작동하는 것을 보며 어떤 알고리즘을 이용해서 물류 플랫폼이 운영되는지 원리가 궁금했고, 어떻게 하면 더 효과적인 지능형 물류 플랫폼을 구축할 수 있는지를 조사해 최종 발표를 했습니다.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="container">
+                <div class="product-item">
+                    <div class="product-item-title d-flex">
+                        <div class="bg-faded p-5 d-flex ms-auto rounded">
+                            <h2 class="section-heading mb-0">
+                                <span class="section-heading-upper">the greatest achievement of my life</span>
+                                <span class="section-heading-lower">Tech Start-up</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="{% static 'assets/img/products-03.jpg' %}" alt="..." style="max-width: 40%;" />
+                    <div class="product-item-description d-flex me-auto">
+                        <div class="bg-faded p-5 rounded"><p class="mb-0">교육봉사를 진행했던 팀원들과 교육 플랫폼을 개발하기 위해 링크사업단에서 진행하는 창업 동아리에 기획서를 제출해 200만 원을 투자받았습니다. 또한 CJ올리브네트웍스 코딩 교육봉사단에서 매주 코딩 교육을 진행하며 교육격차를 해소할 수 있는 교육 플랫폼을 만들겠다는 제 목표를 이뤄나가고 있습니다.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">            
+            <div class="container"><p class="m-0 small">오픈소스SW활용 수업의 Django Project 과제 제출용입니다. <br>본 프로젝트는 MIT License를 사용하여 출처를 밝힌 후 수정 및 재배포가 가능함을 알려드립니다.</p></div>
+            <div class="container"><p class="m-0 small"><br>Copyright &copy; 이정현(32193469)</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

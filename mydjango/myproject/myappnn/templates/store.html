@@ -1,0 +1,134 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Django Project made by 이정현(32193469)</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("{% static 'assets/img/citybg.jpg' %}");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">My Tech Portfolio made by django</span>
+                <span class="site-heading-lower">About me</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="home.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">My Pet</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Potfolio</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Skills</a></li>>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                        <div class="cta-inner bg-faded text-center rounded">
+                            <h2 class="section-heading mb-5">
+                                <span class="section-heading-upper">My Tech Stack</span>
+                                <span class="section-heading-lower">IT Trend</span>
+                            </h2>
+                            <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                                <li class="list-unstyled-item list-hours-item d-flex">
+                                    Django
+                                    <span class="ms-auto">●●●●●</span>
+                                </li>
+                                <li class="list-unstyled-item list-hours-item d-flex">
+                                    React
+                                    <span class="ms-auto">●●●○○</span>
+                                </li>
+                                <li class="list-unstyled-item list-hours-item d-flex">
+                                    Flutter
+                                    <span class="ms-auto">●●●●○</span>
+                                </li>
+                                <li class="list-unstyled-item list-hours-item d-flex">
+                                    Python
+                                    <span class="ms-auto">●●●●●</span>
+                                </li>
+                                <li class="list-unstyled-item list-hours-item d-flex">
+                                    GitHub
+                                    <span class="ms-auto">●●●●●</span>
+                                </li>
+                                <li class="list-unstyled-item list-hours-item d-flex">
+                                    Oracle DB
+                                    <span class="ms-auto">●●●●○</span>
+                                </li>
+                                <li class="list-unstyled-item list-hours-item d-flex">
+                                    JavaScript
+                                    <span class="ms-auto">●●●○○</span>
+                                </li>
+                            </ul>
+                            <p class="address mb-5">
+                                <em>
+                                    <strong>Front-end related languages
+                                    </strong>
+                                    <br />
+                                    Recommend me what to learn
+                                </em>
+                            </p>
+                            <p class="mb-0">
+                                <small><em>이정현</em></small>
+                                <br />
+                                sump99@naver.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section about-heading">
+            <div class="container">
+                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'assets/img/about.jpg' %}" alt="..." />
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-5">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">a desire to contribute to society</span>
+                                    <span class="section-heading-lower">Performance Developers</span>
+                                </h2>
+                                <p>실제로 지능형 물류 플랫폼을 구현해보고 싶어 교환학생 직후에 통일 적정기술 Maker's 해커톤 대회에 동기들과 함께 팀으로 참가했습니다. 지능형 물류 플랫폼에 사용되는 최단 경로 알고리즘을 사용해서 황폐화된 북한 산림 문제를 효율적으로 해결할 수 있는 파종 기계 'U Plant'를 설계 및 개발해 대상을 수상했습니다. 저는 개발과 최종 발표를 맡았고 이 과정을 통해 한정된 자원만을 이용해 사람들에게 꼭 필요한 적정기술을 구현할 수 있는 역량을 키웠습니다.</p>
+                                <p class="mb-0">
+                                    Amazon, eBay와 같이 물류 산업을 다루는 글로벌 로지스틱스 기업에 입사해 물류 문제를 최적화하는 일을 하고 싶습니다. 이런 글로벌 기업에 입사하기 위해서는 미국 실리콘밸리에서 큰 규모의 프로젝트를 진행하며 제 역량을 입증해야 한다고 생각합니다. 글로벌 기업 입사라는 궁극적인 목표를 달성하기 위해 무보수 인턴이라도 마다하지 않고 다양한 실무 경험을 쌓을 것입니다. 그전에 기본적인 컴퓨터 관련 지식을 탄탄히 쌓아 놓는 것이 중요합니다. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">            
+            <div class="container"><p class="m-0 small">오픈소스SW활용 수업의 Django Project 과제 제출용입니다. <br>본 프로젝트는 MIT License를 사용하여 출처를 밝힌 후 수정 및 재배포가 가능함을 알려드립니다.</p></div>
+            <div class="container"><p class="m-0 small"><br>Copyright &copy; 이정현(32193469)</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
